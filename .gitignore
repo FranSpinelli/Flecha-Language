@@ -1,0 +1,52 @@
+# Archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Ignorar archivos de compilación y temporales
+*.out
+*.o
+*.so
+*.class
+*.dll
+*.exe
+
+# Directorios de build
+/build/
+/dist/
+/bin/
+/obj/
+/target/
+
+# Archivos de dependencias
+node_modules/
+vendor/
+
+# Archivos específicos de lenguajes
+# Python
+*.py[cod]
+__pycache__/
+*.egg-info/
+.env
+
+# Java
+*.jar
+*.war
+*.ear
+
+# Archivos específicos de IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
